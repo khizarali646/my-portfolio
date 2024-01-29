@@ -12,7 +12,7 @@ export const MobileNavbar = ({ nav, closeNav }: Props) => {
 
   return (
     <div
-      className={`fixed ${newAnimation} transition-all duration-300 top-0 right-0 bottom-0 left-0 z-[1000] bg-[#09101a]`}
+      className={`fixed ${newAnimation} transition-all duration-300 top-0 right-0 bottom-0 left-0 z-[100000] bg-[#09101a]`}
     >
       <div className="w-[100%] h-[100vh] flex flex-col justify-center items-center">
         <div className="nav-links-mobile">Home</div>
@@ -23,7 +23,7 @@ export const MobileNavbar = ({ nav, closeNav }: Props) => {
         <div className="nav-links-mobile">Contact</div>
       </div>
       <div onClick={closeNav}>
-        <XMarkIcon className="absolute top-[2rem] right-[2rem] h-[2rem] w-[2rem] text-white" />
+        <XMarkIcon className="absolute z-[10000] top-[2rem] right-[2rem] h-[2rem] w-[2rem] text-white" />
       </div>
     </div>
   );
