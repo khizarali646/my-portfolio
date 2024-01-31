@@ -6,7 +6,7 @@ import {ArrowDownTrayIcon, PlayCircleIcon} from "@heroicons/react/16/solid";
 
 export const Hero = () => {
   return (
-    <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
+    <div className="pt-[7rem] h-[88vh] bg-[url('/images/banner.jpg')]  bg-cover bg-center">
       <Particle/>
       <div className="w-[80%] grid-cols-1 mx-auto grid md:grid-cols-2 gap-[3rem] items-center h-full">
         <div>
@@ -22,7 +22,7 @@ export const Hero = () => {
                     <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black"/>
                 </button>
                 <button
-                    className="flex items-center space-x-2 sm:space-x-2 ml-0 sm:mt-5">
+                    className="flex items-center space-x-2 sm:space-x-2 ml-0 mt-[1rem]">
                     <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-400 text-[#55e6a5]"/>
                     <p className="text-[20px] font-semibold text-white">Watch The Video</p>
                 </button>
