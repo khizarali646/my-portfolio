@@ -13,7 +13,7 @@ const About = () => {
                     </h2>
                     <div className="mb-[3rem] flex items-center md:space-x-10">
                         <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
-                        <p className="text-[19px] text-slate-300 w-[80%]">Hi there! I am Khizar Ali, a creative and professional full-stack web developer with a bachelor's degree in computer science. I have over 3+ years of experience in full-stack development. I believe in long-term relationships and hope to take your business to the next level by working with me.</p>
+                        <p className="text-[19px] text-slate-300 w-[80%]">Hi there! I am Khizar Ali, a creative and professional full-stack web developer with a bachelor degree in computer science. I have over 3+ years of experience in full-stack development. I believe in long-term relationships and hope to take your business to the next level by working with me.</p>
                     </div>
                     <button
                         className="px-4 hover:bg-yellow-4 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#fa9926] text-black flex items-center space-x-2 ">
