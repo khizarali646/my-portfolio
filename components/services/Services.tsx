@@ -1,5 +1,5 @@
 import React from 'react';
-import {CodeBracketIcon, RocketLaunchIcon} from "@heroicons/react/16/solid";
+import { CodeBracketIcon, InboxIcon, RocketLaunchIcon } from "@heroicons/react/16/solid";
 
 const Services = () => {
     return (
@@ -11,33 +11,29 @@ const Services = () => {
                 <div>
                     <div
                         className="bg-red-700 hover:scale-110 transfrom transition-all  duration-300 hover:-rotate-6 uppercase font-semibold text-center p-[2rem] mb-10" >
-                        <CodeBracketIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]"/>
-                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">FrontEnd</h1>
+                        <InboxIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
+                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">Wordpress</h1>
                         <p className="text-[15px] text-[#d3d2d2] font-normal">
-                            Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry
-                        </p>
+                        As a WordPress specialist, I offer expert services to seamlessly publish, optimize, and ensure responsiveness for websites                        </p>
                     </div>
                 </div>
                 <div>
                     <div
                         className="bg-orange-700 hover:scale-110 transfrom transition-all  duration-300  uppercase font-semibold text-center p-[2rem] mb-10">
-                        <RocketLaunchIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]"/>
-                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">Backend</h1>
+                        <CodeBracketIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
+                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">FrontEnd</h1>
                         <p className="text-[15px] text-[#d3d2d2] font-normal">
-                            Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry
+                        As a front-end expert, I provide cutting-edge services in HTML, CSS, ReactJS, and Next.js to bring your website vision to life.
                         </p>
                     </div>
                 </div>
                 <div>
                     <div
                         className="bg-blue-700 hover:scale-110 transfrom transition-all  duration-300 hover:rotate-6 uppercase font-semibold text-center p-[2rem] mb-10">
-                        <CodeBracketIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]"/>
-                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">Full Stack</h1>
+                        <RocketLaunchIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
+                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">Backend</h1>
                         <p className="text-[15px] text-[#d3d2d2] font-normal">
-                            Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry
+                        As a back-end specialist, I deliver robust web solutions using Node.js, Express.js, Nest.js, and MongoDB
                         </p>
                     </div>
                 </div>
