@@ -13,7 +13,7 @@ export const TextEffect = () => {
         1000,
       ]}
       speed={50}
-className="text-[1.8rem] md:text-[3rem] text-[#55e6a5] font-bold"
+className="text-[1.8rem] md:text-[3rem] text-white font-bold"
       repeat={Infinity}
     />
   );

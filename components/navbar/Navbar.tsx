@@ -15,7 +15,7 @@ const check = ()=>{
     <div className='w-[100%] fixed z-[1000] h-[12vh] bg-[#141c27] shadow-md'>
         <div className='flex w-[80%]  mx-auto items-center h-[100%]'>
           <div>
-          <h1 className='text-white font-bold font-primary'>Web <span>Architect</span></h1>
+          <h1 className='text-white font-bold font-[22px]'>Web <span className='text-yellow-400'>Architect</span></h1>
           </div>
             <div className='flex justify-center w-[85%] gap-[3rem]'>
             <div className='nav-links'>Home</div>

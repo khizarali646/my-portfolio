@@ -17,20 +17,20 @@ export const Hero = () => {
             </p>
             <div className="mt-[2rem] flex-col md:space-x-6 sm:space-y-2 sm:flex sm:flex-row sm:space-x-0 sm:gap-6 ">
                 <button
-                    className="px-4 hover:bg-yellow-4 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#fa9926] text-black flex items-center space-x-2 ">
-                    <p>Download Cv</p>
-                    <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black"/>
+                    className="px-4 hover:bg-yellow-4 rounded-sm transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase my-gradient text-black flex items-center space-x-2 ">
+                    <p className='text-white '>Download Cv</p>
+                    <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-white"/>
                 </button>
-                <button
+                {/* <button
                     className="flex items-center space-x-2 sm:space-x-2 ml-0 mt-[1rem]">
-                    <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-400 text-[#14CF93]"/>
+                    <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-400 text-yellow-400"/>
                     <p className="text-[20px] font-semibold text-white">Watch The Video</p>
-                </button>
+                </button> */}
 
 
             </div>
         </div>
-          <div className='w-[500px] hidden bg-[#fa9926]  relative md:flex items-center rounded-full h-[500px]'>
+          <div className='my-gradient  w-[500px] hidden bg-[linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%)]  relative md:flex items-center rounded-full h-[500px]'>
               <Image src="/images/khizar-bg.png" alt='Khizar' layout='fill' className='rounded-full object-cover'/>
           </div>
       </div>
